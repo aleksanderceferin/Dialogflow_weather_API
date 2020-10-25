@@ -51,7 +51,7 @@ if (result.intent.displayName === "天氣") {
     "https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=208bd65846f42a4bb1f62e16e47b0a86"
   );
   let json = await r.json();
-  console.log(r);
+  console.log(json);
 }
 
 runSample();
